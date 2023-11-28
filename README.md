@@ -6,15 +6,19 @@
 Let's Go To The Movies Project
 In this project we will be evaluating two movies from the Action and Adventure genre. Keep Reading to reveal the name of both movies of these exciting movies!
 
-Participants: Fellows from the Innovation Fellowship Class 2023-2024, Lead Instructor: FS
-DH
-NC
-JL
+Fellows from the Data Science East- Innovation Fellowship Class 2023-2024
+Lead Instructor: Farukh S. Assistant Instructor: Mo C.
+Fellows Group Participants:
+Jacob L., Naseha C., Emmanuel A., Marco A., and Donna H.
 
-#Reason for this Research: This is a requirement for Phase I of the DS fellowship. 
-In addition, to have a little fun! Often times we as Data Scientists spend a tremendous amount of time researching topics that may not necessarily be interesting to our familes or friends. With this project the goal is to mix research with fun. And possibly uncover some interesting facts about movie goer's and human nature in general. Let's Do It!
+#Reason for this Research: This is a requirement for Phase I of the Data Science Fellowship completion. Due: 12-15-2023
+In addition, to have a little fun! Often times we as Data Scientists spend a tremendous amount of time researching topics that may not necessarily be interesting to our familes or friends. With this project the goal is to mix research with fun. And possibly uncover some interesting facts about film making, movie goer's, human nature and how world events play a part in even the selection of the movie. Let's Do It!
 
-#Hypotheseis: ( This will be a combination of 3 opinions intertragted into 1 official statement. )
+![Exploratory-Data-Analysis-EDA-steps-source-7](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/93887d37-6fe3-4fdb-96ea-d4eb2e38caa6)
+
+
+EDA
+#Hypotheseis: ( This will be a combination of everyone's opinions intertragted into 1 official statement. )
 
 #Research Goals
 Goal 1
