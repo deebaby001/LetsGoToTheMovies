@@ -3,5 +3,5 @@
 ############## Notebooks   #### Folder #### Info    #################################
 # A listing of the Notebooks will follow with a description about each one.
 #1: .ipynb_checkpoints: A general checkpoint listing
-#2: (Add File Name and Description)
+#2: explore01.ipynb: Phhase 1: EDA Process (Expolore) file
 #3: (Add File Name and Description)
