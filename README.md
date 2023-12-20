@@ -32,8 +32,7 @@ In addition, to have a little fun! Often times we as Data Scientists spend a tre
  <body>  
 </html>
 
-![hypothesis](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/4e5b3b75-e77b-4bdf-9ed6-ec17b0e9fd10)
-
+![hypothesis-2](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/c7f7059d-4aa9-4e54-aa3b-21cd405b46fd)
 
 
 <!DOCTYPE html>  
