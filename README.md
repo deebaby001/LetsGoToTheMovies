@@ -1,5 +1,6 @@
 
-"C:\Users\deema\Downloads\movies-film-cinema-movie-theater-27668457.jpg"
+![movies-film-cinema-movie-theater-27668457](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/d90ad02c-80fc-446a-a207-17b5497f6b72)
+
 
 <!DOCTYPE html>  
 <html>  
