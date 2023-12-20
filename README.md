@@ -18,10 +18,11 @@ The project will focus on comparing and contrasting specific attributes from a s
  <body>  
 </html>
 
-    This is a requirement for Phase I of the Data Science Fellowship completion. Due: 12-15-2023
+    This is a requirement for Phase I of the Data Science Fellowship completion. Due: December 2023
 In addition, to have a little fun! Often times we as Data Scientists spend a tremendous amount of time researching topics that may not necessarily be interesting to our familes or friends. With this project the goal is to mix research with fun. And possibly uncover some interesting facts about film making, movie goer's, human nature and how world events play a part in even the selection of the movies that we watch. Sound Intersting?
 
-![Exploratory-Data-Analysis-EDA-steps-source-7](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/93887d37-6fe3-4fdb-96ea-d4eb2e38caa6)
+![Data Sciecne Process](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/00d5d352-34c5-46e8-a4b5-79e896eb6573)
+
 
 
 <!DOCTYPE html>  
@@ -30,6 +31,10 @@ In addition, to have a little fun! Often times we as Data Scientists spend a tre
       <h2>EDA: Exploratory Data Analysis</h2> 
  <body>  
 </html>
+
+![hypothesis](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/4e5b3b75-e77b-4bdf-9ed6-ec17b0e9fd10)
+
+
 
 <!DOCTYPE html>  
 <html>  
