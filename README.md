@@ -61,8 +61,6 @@ Research Goals
 Variables
 > The Attributes for analysis are: Movie Rank, Genre, Year, Runtime, Rating, Votes, Revenue and Metascore
 > 
-> Goal 2: TBD
-
 
 #1. DATA
 
@@ -97,36 +95,7 @@ The EDA Analysis Report will be displayed in the following:
 
 
 #5. MODELING
-
-#MODEL using Linear Regression
-
-# Load the Iris dataset
-iris = load_iris()
-df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
-
-# Define the feature set 'X' and the target variable 'y'
-X = df  # All columns in the DataFrame are used as features
-y = iris.target  # The target variable is the Iris species
-
-# Assuming that 'X' is your feature set and 'y' is the target variable
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
-
-# Create a Linear Regression object
-regressor = LinearRegression()
-
-# Fit the model to the training data
-regressor.fit(X_train, y_train)
-
-# Use the model to predict the test set results
-y_pred = regressor.predict(X_test)
-
-# Calculate and print metrics
-print('Coefficients:', regressor.coef_)
-print('Intercept:', regressor.intercept_)
-print('Mean squared error (MSE): %.2f'
-      % mean_squared_error(y_test, y_pred))
-print('Coefficient of determination (R^2): %.2f'
-      % r2_score(y_test, y_pred))
+Please see the specific code at the specified Modeling Notebook
 
 ##OVERALL ANALYSIS
 Based on the data calculations, here's an overall analysis of the
