@@ -1,5 +1,6 @@
 
-![moviepic](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/645e92a6-8843-4224-a8f5-425a6c188bf3)
+![movies-film-cinema-movie-theater-27668457](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/d90ad02c-80fc-446a-a207-17b5497f6b72)
+
 
 <!DOCTYPE html>  
 <html>  
@@ -8,7 +9,11 @@
  <body>  
 </html>
 
-The project will focus on comparing and contrasting specific attributes from a substantial movie dataset. When you think of movies, often times we only think of going to the movies as a movie-goer. However, there is an entire area of analysis that is beyond just the movie-goer experience. In this study we will focus on evaluating the other attributes of the movie experience. We will consider the following: Movie Rank, Genre, Year, Runtime, Rating, Votes, Revenue and Metascore. Additionally, there will also be an evaluation of the movie-goer experience as well. A small susbest of the entire dataset will be used for this analysis. There will be a more expasive discussion of this evaluation later. 
+The project will focus on comparing and contrasting specific variable relative to a sizeable movie dataset. 
+They actually study "movies"? Yes... Yes they do! 
+There is movie analysis beyond the movie-goer experience. In this study, I will focus on reviewing some of the movie elements. 
+I will evaluate the following variables:
+Movie Rank, Genre, Year, Runtime, Rating, Votes, Revenue and Metascore
 
 <!DOCTYPE html>  
 <html>  
@@ -17,11 +22,14 @@ The project will focus on comparing and contrasting specific attributes from a s
  <body>  
 </html>
 
-    This is a requirement for Phase I of the Data Science Fellowship completion. Due: 12-15-2023
-In addition, to have a little fun! Often times we as Data Scientists spend a tremendous amount of time researching topics that may not necessarily be interesting to our familes or friends. With this project the goal is to mix research with fun. And possibly uncover some interesting facts about film making, movie goer's, human nature and how world events play a part in even the selection of the movies that we watch. Sound Intersting?
+    This is a requirement for Phase I of the Data Science Fellowship completion. 
+    
+![Data Sciecne Process](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/00d5d352-34c5-46e8-a4b5-79e896eb6573)
 
-![Exploratory-Data-Analysis-EDA-steps-source-7](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/93887d37-6fe3-4fdb-96ea-d4eb2e38caa6)
-
+EDA and the Data Science Process
+Data Science is an all encompassing area of science derived from various elements in the study of Science and Technology. When understanding
+Exploratory Data Analysis (EDA) this is a part of the Data Science process. In the most simplistic terms, it involves, exploration of data and the analysis of the data. 
+For the purposes of this project, the EDA consists of: Obtainding a viable dataset, Reviewing the dataset, Cleaning the dataset, Analyzing the data for the appropriate model, Fitting the model to the data and a final analysis--- How well did we do? And what are the Next Steps? in the evolution of this project and the overall Data Science process.
 
 <!DOCTYPE html>  
 <html>  
@@ -29,6 +37,9 @@ In addition, to have a little fun! Often times we as Data Scientists spend a tre
       <h2>EDA: Exploratory Data Analysis</h2> 
  <body>  
 </html>
+
+![hypothesis-2](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/c7f7059d-4aa9-4e54-aa3b-21cd405b46fd)
+
 
 <!DOCTYPE html>  
 <html>  
@@ -45,9 +56,9 @@ In addition, to have a little fun! Often times we as Data Scientists spend a tre
 </html>
 
 Research Goals
-> Goal 1: Comparative Analysis:  To include specific attributes or details provided that can be used in creating the comparative analysis that is necessary.
+> Goal 1: Comparative Analysis of specific variables and how they interrelate and effect one another.
 >
-> Attributes
+Variables
 > The Attributes for analysis are: Movie Rank, Genre, Year, Runtime, Rating, Votes, Revenue and Metascore
 > 
 > Goal 2: TBD
@@ -66,36 +77,32 @@ The primary objective is the begin with clean data. Then place that data into a 
 1. Linear Regression Model
 
 #3. CLEANING REPORT
+(IN PROGRESS)
 
-TBD
-
-(Add Here: Cleaning Report)
 The purpose of this is to present the data in the most unencumbered manner psossible. The data has been cleared of duplicate rows, and columns, NAN, Non-NaN, and Blanks.
 
 #4. EDA
 
+(IN PROGRESS)
 The EDA Analysis Report will be displayed in the following:
-(PROVIDE here: Written Analysis of Results)
+(PROVIDE: Written Analysis of Results)
 ALSO... Provide Data Vizualizations (DV)- Per the instructor, DV is not required here.)
 
 #5. MODELING
 
-TBD
+(IN PROGRESS)
 
-1st: Provide Pre-Processing Report Modeling Report
-2nd: Provide the Linearn Regression Model Data visualization and written analysis
+1st: Provide Pre-Processing Report 
+2nd: Modeling Report
+2nd: Provide the Linearn Regression Model Data Visualization with Written Analysis
 
 #7. FURTHER RESEARCH
 
-TBD
-
-(Provide written analysis)
+In consideration of other prospective areas of research and analysis in consideration of movie data, I think that there is an opportunity to evaluate some of the following areas of interest: Uncover interesting facts about the film making process, Detecting the roles that the movie goer's plays in the film making process, Evaluationg how human nature impacts the movie experience and Evaluating how world events are significant in the script creation and movie development process. 
 
 #8. CREDITS
-
-TBD
-
-(Provide written summary)
+The data that was accessed for this project is located at the following sites: Target Movie Dataset: https://www.kaggle.com/datasets/PromptCloudHQ/imdb-data?select=IMDB-Movie-Data.csv Supporting Resource Sites: IMDB: https://www.imdb.com/ and The Numbers.com:https://www.the-numbers.com/ have provided additional reference matterials for the purposes of this project.
+"Special Thank You" to staff at The Numbers for assisting with additional analytical data and support for this project.
 
 
 
