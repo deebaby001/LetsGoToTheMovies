@@ -77,24 +77,68 @@ The primary objective is the begin with clean data. Then place that data into a 
 1. Linear Regression Model
 
 #3. CLEANING REPORT
-(IN PROGRESS)
+Can be found in the respective Transform notebook.
 
 The purpose of this is to present the data in the most unencumbered manner psossible. The data has been cleared of duplicate rows, and columns, NAN, Non-NaN, and Blanks.
 
 #4. EDA
 
-(IN PROGRESS)
 The EDA Analysis Report will be displayed in the following:
-(PROVIDE: Written Analysis of Results)
-ALSO... Provide Data Vizualizations (DV)- Per the instructor, DV is not required here.)
+
+![Regular-Axes3D](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/4f736406-6fc4-4bb7-a399-d8e05cba05af)
+
+![Axes3D-scatter](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/8a046ff0-ff28-4bc2-a4af-5d90e03ba1a2)
+
+![Boxplot](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/2e4a52dc-af1a-40b2-8ef7-019b433c3e98)
+
+![Hexbin](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/4c878f77-e808-4200-9696-54629df0b1a5)
+
+![scatter-matrix](https://github.com/deebaby001/LetsGoToTheMovies/assets/14750340/03aed337-0414-463a-9677-57ed006fe8db)
+
 
 #5. MODELING
 
-(IN PROGRESS)
+#MODEL using Linear Regression
 
-1st: Provide Pre-Processing Report 
-2nd: Modeling Report
-2nd: Provide the Linearn Regression Model Data Visualization with Written Analysis
+# Load the Iris dataset
+iris = load_iris()
+df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+
+# Define the feature set 'X' and the target variable 'y'
+X = df  # All columns in the DataFrame are used as features
+y = iris.target  # The target variable is the Iris species
+
+# Assuming that 'X' is your feature set and 'y' is the target variable
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# Create a Linear Regression object
+regressor = LinearRegression()
+
+# Fit the model to the training data
+regressor.fit(X_train, y_train)
+
+# Use the model to predict the test set results
+y_pred = regressor.predict(X_test)
+
+# Calculate and print metrics
+print('Coefficients:', regressor.coef_)
+print('Intercept:', regressor.intercept_)
+print('Mean squared error (MSE): %.2f'
+      % mean_squared_error(y_test, y_pred))
+print('Coefficient of determination (R^2): %.2f'
+      % r2_score(y_test, y_pred))
+
+##OVERALL ANALYSIS
+Based on the data calculations, here's an overall analysis of the
+Linear Regression Model:
+
+1. Coefficients: The coefficients of this model are `-0.10627533`, `-0.0397204`, `0.22894234`, and `0.61123074`. These values represent the change in the target variable for a one-unit change in the corresponding feature. With the understanding that all other features remain constant.The signs of the coefficients (-) or (+), indicate the direction of the relationship with the target variable, as referenced.
+
+2. Intercept: The intercept of your model is `0.16149541375178778`. This is the expected value of the target variable in the understanding that  all features are zero. Yet, the interpretation of the intercept often doesn't make sense in the reality, if zero is not a valid value for all or even some of the features.
+
+3. Mean Squared Error (MSE): The MSE of the model is `0.05`. This is a measure of the average squared difference between the actual and predicted values. Therefore, the closer this value is to zero, the better the performance of the model. Nonetheless, in regards to the scale of the MSE, this depends on the scale of the target variable, so it can sometimes be hard to interpret this by its' self.
+
+4. Coefficient of Determination (R^2): The R^2 of your model is `0.91` (or 91% when expressed as a percentage). Thus, 91% of the variability in the target variable can be more easily explained by the features. An R^2 value close to 1 indicates that the model explains a large portion of the variance in the target variable. Therefore, suggesting that the model is performing very well. This is definitely a Good Thing!
 
 #7. FURTHER RESEARCH
 
